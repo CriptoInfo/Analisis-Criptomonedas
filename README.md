@@ -1,7 +1,6 @@
-# Plantilla del curso de desarrollo ágil 
+# Miembros del equipo
+[Ángel Gallardo Ruiz](https://github.com/agr8)    --> [Perfil de LinkedIn](https://www.linkedin.com/in/angela-gallardo-ruiz/)
 
-Plantilla para el [curso de desarrollo ágil](https://jj.github.io/curso-tdd)
+[Raúl Soria Gonzalez](https://github.com/raulsoria98) --> [Perfil de LinkedIn](https://www.linkedin.com/in/ra%C3%BAl-soria-gonz%C3%A1lez-5166681b6/)
 
-Contiene el mínimo para un proyecto, incluyendo una GitHub action que
-comprueba la presencia de ciertos ficheros, un directorio para los
-tests, y otro para la documentación.
+[Miguel Ángel Benítez Alguacil](https://github.com/migue0418) --> [Perfil de LinkedIn](https://www.linkedin.com/in/miguealguacil/)
