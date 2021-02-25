@@ -1,9 +1,22 @@
+# CryptoGo
 
-### Instalación 🔧
-# Miembros del equipo
+## 📋 Descripción
+Queremos idear una aplicación para obtener información de criptodivisas en tiempo real. Un bot de telegram nos proporcionará dicha información.
 
-[Ángela Gallardo Ruiz](https://github.com/agr8)    --> [Perfil de LinkedIn](https://www.linkedin.com/in/angela-gallardo-ruiz/)
+Como solución para este problema haremos uso de la [API CoinGecko](https://www.coingecko.com/es/api) para obtener información en tiempo real sobre el estado de la moneda seleccionada. 
 
-[Raúl Soria Gonzalez](https://github.com/raulsoria98) --> [Perfil de LinkedIn](https://www.linkedin.com/in/ra%C3%BAl-soria-gonz%C3%A1lez-5166681b6/)
 
-[Miguel Ángel Benítez Alguacil](https://github.com/migue0418) --> [Perfil de LinkedIn](https://www.linkedin.com/in/miguealguacil/)
+## 🔧 Herramientas
+- Lenguaje de programación: GoLang.
+- API: CoinGecko.
+- Servicio de logging: [log](https://golang.org/pkg/log/) (librería de Go).
+- Bot de telegram: @BotFather.
+
+
+## 💻 Miembros del equipo
+
+:bust_in_silhouette: [Ángela Gallardo Ruiz](https://github.com/agr8)    --> [Perfil de LinkedIn](https://www.linkedin.com/in/angela-gallardo-ruiz/)
+
+:bust_in_silhouette: [Raúl Soria Gonzalez](https://github.com/raulsoria98) --> [Perfil de LinkedIn](https://www.linkedin.com/in/ra%C3%BAl-soria-gonz%C3%A1lez-5166681b6/)
+
+:bust_in_silhouette: [Miguel Ángel Benítez Alguacil](https://github.com/migue0418) --> [Perfil de LinkedIn](https://www.linkedin.com/in/miguealguacil/)
