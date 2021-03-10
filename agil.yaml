@@ -5,3 +5,8 @@ personas:
   
 excepciones:
   - src/exceptions.go
+
+lenguaje: go
+
+taskfile:
+ - src/Makefile
