@@ -15,4 +15,5 @@ func main() {
 	CG := coingecko.NewClient(httpClient)
 
 	fmt.Println(CG.SimpleSinglePrice("bitcoin", "eur"))
+	fmt.Println(CG.SimpleSinglePrice("ethereum", "eur"))
 }
