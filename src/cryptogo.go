@@ -2,18 +2,23 @@ package main
 
 import (
 	"fmt"
-	"net/http"
-	"time"
+	"log"
 
-	coingecko "github.com/superoo7/go-gecko/v3"
+	gecko "github.com/superoo7/go-gecko/v3"
 )
 
 func main() {
-	httpClient := &http.Client{
-		Timeout: time.Second * 10,
-	}
-	CG := coingecko.NewClient(httpClient)
+	cg := gecko.NewClient(nil)
 
-	fmt.Println(CG.SimpleSinglePrice("bitcoin", "eur"))
-	fmt.Println(CG.SimpleSinglePrice("ethereum", "eur"))
+	ids := []string{"bitcoin", "ethereum"}
+	vc := []string{"usd", "eur"}
+	sp, err := cg.SimplePrice(ids, vc)
+	if err != nil {
+		log.Fatal(err)
+	}
+	bitcoin := (*sp)["bitcoin"]
+	eth := (*sp)["ethereum"]
+	fmt.Println(fmt.Sprintf("Bitcoin is worth %f usd (%f eur)", bitcoin["usd"], bitcoin["eur"]))
+	fmt.Println(fmt.Sprintf("Ethereum is worth %f usd (%f eur)", eth["usd"], eth["eur"]))
 }
+
