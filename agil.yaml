@@ -3,3 +3,5 @@ personas:
   - Pablo Muñoz
   - Eustaquio Álvarez
   
+excepciones:
+  - src/exceptions.go
