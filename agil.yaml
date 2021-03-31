@@ -9,11 +9,11 @@ excepciones:
 lenguaje: go
 
 taskfile:
- - src/Makefile
+  - src/Makefile
 
 linter: vet
 
 test:
-    - tests/cryptogo_test.go
+  - tests/cryptogo_test.go
 
 aserciones: "@test"
