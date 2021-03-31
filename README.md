@@ -12,6 +12,9 @@ Como solución para este problema haremos uso de la [API CoinGecko](https://www.
 - Servicio de logging: [log](https://golang.org/pkg/log/) (librería de Go).
 - Bot de telegram: @BotFather.
 
+## 📋 Instrucciones
+- Para ejecutar los tests del proyecto se utilizará `make test`
+- Para ejecutar el proyecto utilizaremos `make run`
 
 ## 💻 Miembros del equipo
 
