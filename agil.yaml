@@ -11,4 +11,4 @@ lenguaje: go
 taskfile:
  - src/Makefile
 
-linter: vet go
+linter: vet
