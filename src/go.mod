@@ -1,4 +1,4 @@
-module cryptogo.com
+module cryptogo.com/modules
 
 go 1.16
 
