@@ -9,7 +9,7 @@ excepciones:
 lenguaje: go
 
 taskfile:
-  - src/Makefile
+  - Makefile
 
 linter: vet
 
