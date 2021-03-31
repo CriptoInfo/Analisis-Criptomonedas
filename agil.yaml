@@ -17,3 +17,7 @@ test:
   - tests/cryptogo_test.go
 
 aserciones: "@test"
+
+testing:
+    runner: go
+    framework: go
