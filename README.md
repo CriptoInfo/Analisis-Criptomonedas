@@ -13,7 +13,7 @@ Como solución para este problema haremos uso de la [API CoinGecko](https://www.
 - Bot de telegram: @BotFather.
 
 ## 📋 Instrucciones
-- Para ejecutar los tests del proyecto se utilizará `make test`
+- Para ejecutar los tests del proyecto se utilizará `make test`, que ejecutará `go test`
 - Para ejecutar el proyecto utilizaremos `make run`
 
 ## 💻 Miembros del equipo
