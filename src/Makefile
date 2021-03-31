@@ -1,4 +1,4 @@
-check
+check:
 	go vet
 
 run:	
