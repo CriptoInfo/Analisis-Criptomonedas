@@ -12,3 +12,8 @@ taskfile:
  - src/Makefile
 
 linter: vet
+
+test:
+    - tests/cryptogo_test.go
+
+aserciones: "@test"
